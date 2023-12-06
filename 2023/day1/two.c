@@ -51,7 +51,7 @@ int main(int argc , char** argv) {
 
 int decode(char* line) {
 	Buffer buffer;
-	buffer.ptr = malloc(sizeof(int)); // Allocate memory for buffer.ptr
+	buffer.ptr = malloc(sizeof(int));
 	if (buffer.ptr == NULL) {
 		printf("Memory allocation failed.\n");
 		exit(1);
