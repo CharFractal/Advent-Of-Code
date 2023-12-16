@@ -18,7 +18,9 @@ bool compstr(char* line, char* value);
 void getdigits(char* line, Buffer* buffer);
 int decode(char* line);
 void updateBuffer(Buffer* buffer);
+
 int main(int argc , char** argv) {
+
 	if (argc != 2) {
 		printf("Usage: %s <filename>\n", argv[0]);
 		return 1;
